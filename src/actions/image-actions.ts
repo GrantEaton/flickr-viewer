@@ -1,5 +1,5 @@
 import { ActionTypes } from "./action-types";
-import { ImageDetails, RecentImage } from "../types";
+import { ImageDetails, RecentImage } from "../types/types";
 import { createAction } from "typesafe-actions";
 
 export const addRecentImagesAction = createAction(
@@ -20,5 +20,12 @@ export const fetchRecentImagesAction = createAction(
   ActionTypes.FETCH_IMAGES,
   resolve => {
     return () => resolve();
+  }
+);
+
+export const fetchImageSizesAction = createAction(
+  ActionTypes.FETCH_IMAGES_SIZES,
+  resolve => {
+    return (payload: { imageId: string }) => resolve(payload);
   }
 );

@@ -1,10 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### How to run
 
-## Available Scripts
+`cd flickr-viewer`
+`yarn install`
+`yarn start`
+
+### Description
+
+This is a basic application to show the 10 most recent photos from flickr.
+I am aware that my UI is quite basic. I felt that building a nice UI that allows selecting
+of different API parameters, then passing them into the api calls was fairly trivial, so
+I chose to, rather, build out a fairly sound and scalable Typescript/ React/ Redux/ epic middleware / RxJs
+application using some of the best practices would be more interesting and representative of my
+front-end knowledge and application. I chose to not spend much time on css.
+
+Though a few @ts-ignores were thrown in so as not to spend time digging into type resolution, I felt that
+this turned out fairly well.
+
+The application displays the latest 10 images uploaded to flickr, similar to the example app.
+I tried to filter out NFSW content, but some still slips in.
+Please see https://www.flickr.com/help/forum/en-us/72157690999953734/ it seems that not all content can be filtered out, because
+rather than using machine learning to detect NSFW filters, Flickr relies on the users tagging the content as NSFW and not all of them do.
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `yarn start`
+#### `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +33,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+#### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I did not add tests, sorry! If I was going to, I would use jest and mock that
+reducers are called with correct payloads and check the state is accurate afterward :)
 
-### `yarn build`
+#### `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -26,19 +47,3 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

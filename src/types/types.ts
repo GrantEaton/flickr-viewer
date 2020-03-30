@@ -11,6 +11,7 @@ export type RecentImage = {
 };
 
 export type ImageDetails = {
+  id: string;
   label: string;
   width: number;
   height: number;
@@ -21,9 +22,21 @@ export type ImageDetails = {
 
 export type ImageStoreState = {
   recentImages: Array<RecentImage>;
-  images: Array<ImageDetails>;
+  imageDetails: Array<Array<ImageDetails>>;
 };
 
 export type State = {
   imageData: ImageStoreState;
 };
+
+export type GalleryImage = {
+  src: string;
+  thumbnail?: string;
+  thumbnailWidth?: number;
+  thumbnailHeight?: number;
+  isSelected?: boolean;
+  caption?: string;
+};
+
+export type RecentImagesResponse = { photos: { photo: Array<RecentImage> } };
+export type ImageSizesResponse = { sizes: { size: Array<ImageDetails> } };
