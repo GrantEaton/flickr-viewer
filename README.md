@@ -1,8 +1,10 @@
 ### How to run
 
-`cd flickr-viewer`
-`yarn install`
-`yarn start`
+```cd flickr-viewer```
+```cp .env.sample .env```
+```yarn install```
+```yarn start```
+
 
 ### Description
 
