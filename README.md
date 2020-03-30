@@ -28,7 +28,7 @@ rather than using machine learning to detect NSFW filters, Flickr relies on the 
 
 [Too Lazy, Didnt Run: Website screenshot demo](https://drive.google.com/file/d/11Vh0NR9DTT7KGdo-wdNtDGnKribaIPGU/view?usp=sharing)
 
-### Examples of above technologies
+#### Example Usages of Above Technologies
 * [Epic middleware/ RxJS](https://github.com/GrantEaton/flickr-viewer/blob/master/src/epics/image-epics.ts#L27)
 * [Redux reducers](https://github.com/GrantEaton/flickr-viewer/blob/master/src/reducers/image-reducers.ts#L11)
 * [Typescript types](https://github.com/GrantEaton/flickr-viewer/blob/master/src/types/types.ts#L1)
