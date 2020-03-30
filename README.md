@@ -18,7 +18,7 @@ this turned out fairly well.
 
 The application displays the latest 10 images uploaded to flickr, similar to the example app.
 I tried to filter out NFSW content, but some still slips in.
-Please see https://www.flickr.com/help/forum/en-us/72157690999953734/ it seems that not all content can be filtered out, because
+Please see [here](https://www.flickr.com/help/forum/en-us/72157690999953734/) it seems that not all content can be filtered out, because
 rather than using machine learning to detect NSFW filters, Flickr relies on the users tagging the content as NSFW and not all of them do.
 
 ### Available Scripts
