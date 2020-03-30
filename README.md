@@ -21,6 +21,8 @@ I tried to filter out NFSW content, but some still slips in.
 Please see [here](https://www.flickr.com/help/forum/en-us/72157690999953734/) it seems that not all content can be filtered out, because
 rather than using machine learning to detect NSFW filters, Flickr relies on the users tagging the content as NSFW and not all of them do.
 
+[View demo](https://drive.google.com/file/d/11Vh0NR9DTT7KGdo-wdNtDGnKribaIPGU/view?usp=sharing)
+
 ### Available Scripts
 
 In the project directory, you can run:
