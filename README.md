@@ -28,7 +28,7 @@ rather than using machine learning to detect NSFW filters, Flickr relies on the 
 
 Oh, and yes, my API key is committed. This makes it easier for you to run. I mean, the example I was sent had the API key on in the network requests, so it isnt all that different I suppose hah :D 
 
-[Too Lazy, Didnt Run: Heres a screenshot demo of the website](https://drive.google.com/file/d/11Vh0NR9DTT7KGdo-wdNtDGnKribaIPGU/view?usp=sharing)
+[Too Lazy, Didnt Run(TLDR): Heres a screenshot demo of the website](https://drive.google.com/file/d/11Vh0NR9DTT7KGdo-wdNtDGnKribaIPGU/view?usp=sharing)
 
 #### Example Usages of Above Technologies
 * [Epic middleware/ RxJS](https://github.com/GrantEaton/flickr-viewer/blob/master/src/epics/image-epics.ts#L27)
