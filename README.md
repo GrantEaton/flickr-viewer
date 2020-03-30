@@ -1,8 +1,11 @@
 ### How to run
 
 ```cd flickr-viewer```
+
 ```cp .env.sample .env```
+
 ```yarn install```
+
 ```yarn start```
 
 
