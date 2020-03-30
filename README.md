@@ -14,12 +14,12 @@
 This is a basic application to show the 10 most recent photos from flickr.
 I am aware that my UI is quite basic. I felt that building a nice UI that allows selecting
 of different API parameters, then passing them into the api calls was fairly trivial, so
-I chose to, rather, build out a fairly sound and scalable Typescript/ React/ Redux/ epic middleware / RxJs
-application using some of the best practices would be more interesting and representative of my
+I chose to, rather, build out a fairly clean and directory-scalable Typescript/ React/ Redux/ epic middleware / RxJs
+application. I figured this would be more interesting and representative of my
 front-end knowledge and application. I chose to not spend much time on css.
 
 Though a few @ts-ignores were thrown in so as not to spend time digging into type resolution, I felt that
-this turned out fairly well.
+this turned out fairly well. If you are not typescript familiar, oops. I do feel that most companies these days are choosing to be type-safe and most are picking Ts over Flow, so I felt this was appropriate to demonstate my knowledge. 
 
 The application displays the latest 10 images uploaded to flickr, similar to the example app.
 I tried to filter out NFSW content, but some still slips in.
