@@ -26,7 +26,14 @@ I tried to filter out NFSW content, but some still slips in.
 Please see [here](https://www.flickr.com/help/forum/en-us/72157690999953734/) it seems that not all content can be filtered out, because
 rather than using machine learning to detect NSFW filters, Flickr relies on the users tagging the content as NSFW and not all of them do.
 
-[View demo](https://drive.google.com/file/d/11Vh0NR9DTT7KGdo-wdNtDGnKribaIPGU/view?usp=sharing)
+[Too Lazy, Didnt Run: Website screenshot demo](https://drive.google.com/file/d/11Vh0NR9DTT7KGdo-wdNtDGnKribaIPGU/view?usp=sharing)
+
+### Examples of above technologies
+* [Epic middleware/ RxJS](https://github.com/GrantEaton/flickr-viewer/blob/master/src/epics/image-epics.ts#L27)
+* [Redux reducers](https://github.com/GrantEaton/flickr-viewer/blob/master/src/reducers/image-reducers.ts#L11)
+* [Typescript types](https://github.com/GrantEaton/flickr-viewer/blob/master/src/types/types.ts#L1)
+* [React + Ts component](https://github.com/GrantEaton/flickr-viewer/blob/master/src/components/ImageDashboard.tsx#L36)
+* [store and middleware setup](https://github.com/GrantEaton/flickr-viewer/blob/master/src/store/index.ts#L1)
 
 ### Available Scripts
 
